@@ -1,7 +1,10 @@
 #include "stdio.h"
 
-int main(void) {
-  int result = binarySearch(15);
+int main() 
+{
+  int numbers[] = { 1, 2, 3, 4, 8, 9, 10, 15, 75, 100, 101, 157, 254 };
+
+  int result = binarySearch(numbers, 13, 101);
 
   result == -1 
     ? printf("Element is not present in array\n") 
@@ -10,31 +13,33 @@ int main(void) {
   return 0;
 }
 
-int binarySearch(int target) {
-  int array[] = { 1, 2, 3, 4, 8, 9, 10, 15, 75, 100 };
-
-  int arrayLength = sizeof(array) / sizeof(array[0]);
-
-  int rightPoint = arrayLength - 1;
+int binarySearch(int array[], int length, int target) 
+{
+  int rightPoint = length - 1;
   int leftPoint = 0;
   int middlePosition = (leftPoint + rightPoint) / 2;
   
-  while (arrayLength > middlePosition) {
+  while (length > middlePosition) 
+  {
     int middleElement = array[middlePosition];
 
-    if (middleElement == target) {
+    if (middleElement == target) 
+    {
       return middlePosition;
     }
 
-    if (middleElement > target) {
+    if (middleElement > target) 
+    {
       rightPoint = middlePosition - 1;
     }
 
-    if (middleElement < target) {
+    if (middleElement < target) 
+    {
       leftPoint = middlePosition + 1;
     }
 
-    if (leftPoint > rightPoint) {
+    if (leftPoint > rightPoint) 
+    {
       return -1;
     }
 
