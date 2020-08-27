@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tcc": "c",
+    "cstdlib": "c",
+    "memory": "c",
+    "list": "c"
+  }
+}

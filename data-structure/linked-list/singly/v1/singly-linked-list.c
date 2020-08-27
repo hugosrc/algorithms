@@ -22,12 +22,12 @@ int main() {
   second -> next = third;
   third -> next = NULL;
 
-  printf("O List item values:\n\n");
+  printf("The List item values:\n\n");
   printf("Data value, Head: %d\n", head -> data);
   printf("Data value, Second: %d\n", second -> data);
   printf("Data value, Third: %d\n\n", third -> data);
 
-  printf("O Values of the next list items:\n\n");
+  printf("The Values of the next list items:\n\n");
   printf("Item value after head - %d\n", head -> next -> data);
   printf("Item value after head - %d\n", second -> next -> data);
   printf("Item value after head - %d\n", third -> next -> data);
@@ -35,13 +35,13 @@ int main() {
   /*
     Output:
 
-    O List item values:
+    The List item values:
 
     Data value, Head: 1
     Data value, Second: 2
     Data value, Third: 3
 
-    O Values of the next list items:
+    The Values of the next list items:
 
     Item value after head - 2
     Item value after head - 3
