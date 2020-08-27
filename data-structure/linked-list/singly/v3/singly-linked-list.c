@@ -13,26 +13,35 @@ void push(struct Node** headRef, int newData) {
   (*headRef) = newNode;
 }
 
+// deletes the first occurrence of key in linked list
 void deleteNode(struct Node** headRef, int key) {
+  // Store head node 
   struct Node* temp = *headRef, *prev;
 
+  // checks if the main node itself contains the key to be deleted
   if (temp != NULL && temp->data == key)
   {
+    // change the head value
     *headRef = temp->next;
+    // deallocates the allocated memory portion
     free(temp);
     return;
   }
 
+  // Search for the key to be deleted, keep track of the 
+  // previous node as we need to change 'prev->next' 
   while (temp != NULL && temp->data != key)
   {
     prev = temp;
     temp = temp->next;
   }
 
+  // if no node is found with the expected key returns
   if (temp == NULL) return;
-  
+  // change link from previous node
   prev->next = temp->next;
 
+  // deallocates the allocated memory portion
   free(temp);
 }
 
