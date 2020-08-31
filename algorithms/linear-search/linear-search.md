@@ -23,6 +23,16 @@ Linear search is a method for finding an element within a list. A linear search 
   }
 ```
 
+## Big-O
+
+### Worst-case
+
+#### O(n) - Iterate through the entire array of n elements because the target is at the end or doesn't exist.
+
+### Best-case
+
+#### O(1) - Occurs when the searched element is the first element in the list.
+
 ## References
 
 https://javacodekorner.blogspot.com/2019/03/linear-search-program-java.html
