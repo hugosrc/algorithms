@@ -28,13 +28,13 @@ In language C, a linked list node can be implemented as follows:
 A singly linked list is collection of nodes wherein each node has 2 parts: data and a pointer to the next node. The list terminates with a node pointing at NULL.
 
 <p align="center">
-  <img src="./singly/linked-list-singly.png" width="50%"/>
+  <img src="../images/linked-list-singly.png" width="50%"/>
 </p>
 
 ### Doubly Linked list
 
 <p align="center">
-  <img src="./doubly/doubly-linked-list.png" width="50%"/>
+  <img src="../images/doubly-linked-list.png" width="50%"/>
 </p>
 
 The only difference between the singly linked list and the doubly linked list is that each node contains three fields: two link fields (references to the previous and next nodes in the sequence of nodes) and a data field.

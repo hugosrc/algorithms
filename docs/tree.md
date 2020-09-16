@@ -1,7 +1,7 @@
 # Tree
 
 <p align="center">
-  <img src="./tree.png" height="300px"/>
+  <img src="../images/tree.png" height="300px"/>
 </p>
 
 ## References

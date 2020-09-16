@@ -1,7 +1,7 @@
 # Binary Search
 
 <p align="center">
-  <img src="./binary-search.png" width="50%"/>
+  <img src="../images/binary-search.png" width="50%"/>
 </p>
 
 Binary search is a search algorithm that finds the position of a target value within a sorted array. Search algorithm works on the principle of divide and conquer. For this algorithm to work properly, the data collection should be in the sorted form.

@@ -1,7 +1,7 @@
 # Queue
 
 <p align="center">
-  <img src="./queue.png" width="50%"/>
+  <img src="../images/queue.png" width="50%"/>
 </p>
 
 A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO), so it is an important structure for storing and retrieving data and hence is used extensively among all the data structures.

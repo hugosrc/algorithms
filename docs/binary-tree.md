@@ -1,7 +1,7 @@
 # Binary Tree
 
 <p align="center">
-  <img src="./binary-tree.png" height="300px"/>
+  <img src="../images/binary-tree.png" height="300px"/>
 </p>
 
 A binary tree is a type of tree, but the main difference between tree and binary tree is that tree arranges data in a structure similar to a tree, in a hierarchical manner, while a binary tree is a type of tree in which a parent node can have a maximum of two child nodes.
@@ -9,10 +9,6 @@ A binary tree is a type of tree, but the main difference between tree and binary
 The topmost node is the root node. The nodes connect together according to the parent-child relationship. A node that has no child nodes is a leaf node.
 
 ### Nomenclature in the Binary Tree
-
-<p align="center">
-  <img src="./binary-tree.jpg" height="300px"/>
-</p>
 
 #### Path - Path refers to the sequence of nodes along the edges of a tree.</br>
 

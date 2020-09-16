@@ -1,7 +1,7 @@
 # Linear Search
 
 <p align="center">
-  <img src="./linear-search.png" width="50%"/>
+  <img src="../images/linear-search.png" width="50%"/>
 </p>
 
 Linear search is a method for finding an element within a list. A linear search sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully.
