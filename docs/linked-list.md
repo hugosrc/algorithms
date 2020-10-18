@@ -10,7 +10,7 @@ The first node is always used as a reference to traverse the list and is called 
 
 In language C, a linked list node can be implemented as follows:
 
-```
+```c
   struct Node {
     int data;
     struct Node* next;

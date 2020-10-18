@@ -12,7 +12,7 @@ Step 2 − Merge the smaller lists into new list in sorted order.
 
 ### Implementation of a linear search in C:
 
-```cpp
+```c
   void merge_sort(int* array, int left, int right) {
     if (left < right)
     {

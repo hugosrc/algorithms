@@ -9,3 +9,7 @@ https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-not
 https://www.educative.io/blog/a-big-o-primer-for-beginning-devs
 
 https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm
+
+https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/
+
+https://www.geeksforgeeks.org/analysis-of-algorithms-set-2-asymptotic-analysis/

@@ -23,7 +23,7 @@ Queue is used when things don’t have to be processed immediately, but have to 
 
 ### Representation
 
-```bash
+```c
 struct Queue {
   int front, rear, size;
   unsigned capicity;

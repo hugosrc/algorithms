@@ -10,7 +10,7 @@ The idea of binary search is to use the information that the array is sorted and
 
 ### Implementation of a birary search in C:
 
-```bash
+```c
   int binarySearch(int array[], int length, int target) 
 {
   int rightPoint = length - 1;

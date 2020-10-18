@@ -8,7 +8,7 @@ Linear search is a method for finding an element within a list. A linear search 
 
 ### Implementation of a linear search in C:
 
-```bash
+```c
   int search(int array[], int length, int target) {
 
     for (int i = 0; i < length; i++) 
